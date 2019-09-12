@@ -39,14 +39,14 @@ public class Transaction {
         this.transactionId = transactionId;
     }
 
-    public Customer getCustomer() {
-        return customer;
+    public long getCustomerId() {
+        return customerId;
     }
 
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
+    public void setCustomerId(long customerId) {
+        this.customerId = customerId;
     }
 
     private long transactionId;
-    Customer customer;
+    public long customerId;
 }
